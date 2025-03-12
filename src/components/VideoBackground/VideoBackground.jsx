@@ -38,7 +38,7 @@ const VideoBackground = () => {
 
       {/* Modal de contraseña */}
       <div className='modal__Container'>
-        <h2>Insert Password</h2>
+        <h2>Proposal</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="password"
