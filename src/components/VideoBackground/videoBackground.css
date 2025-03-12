@@ -1,0 +1,37 @@
+h2{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.modal__Container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;          
+    box-Shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.modal__Input{
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.modal__Input:focus{    
+    border: 1px solid #1D0632;
+    outline: none;
+}
+.modal__Button{
+    background: #1D0632;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
