@@ -1,26 +1,38 @@
 h2{
     font-size: 24px;
     font-weight: 400;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    color: #fff;
 }
 .modal__Container{
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.15);
-    padding: 20px;
+    /* background: rgba(255, 255, 255, 0.059); */
+    padding: 5px;
     border-radius: 10px;
     text-align: center;          
-    box-Shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    /* box-Shadow: 0px 4px 10px rgba(0,0,0,0.2); */
+    width: 180px;
+    padding: 5px 10px;
+}
+.modal__Form{
+    text-align: center;
+    width: 100%;
+    padding: 0;    
 }
 .modal__Input{
-    padding: 10px;
+    padding: 5px;
     font-size: 16px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 85%;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+.modal__Input::placeholder{    
+    font-size: 14px; 
+    text-align: center;   
 }
 .modal__Input:focus{    
     border: 1px solid #1D0632;
@@ -30,7 +42,7 @@ h2{
     background: #1D0632;
     color: white;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 5px;
     border: none;
     cursor: pointer;

@@ -7,7 +7,7 @@ const VideoBackground = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password === "test111") {
+    if (password === "kudjo") {
       window.location.href = "https://www.google.com";
     } else {
       setError("Incorrect password. Try again.");
@@ -39,7 +39,7 @@ const VideoBackground = () => {
       {/* Modal de contraseña */}
       <div className='modal__Container'>
         <h2>Proposal</h2>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='modal__Form'>
           <input
             type="password"
             value={password}
