@@ -8,7 +8,7 @@ const VideoBackground = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (password === "kudjo") {
-      window.location.href = "https://www.google.com";
+      window.location.href = "https://www.canva.com/design/DAGhDd-KdAY/xWMn8WnF_DWYlAS2A2iLrA/edit?utm_content=DAGhDd-KdAY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton";
     } else {
       setError("Incorrect password. Try again.");
       setPassword("");
